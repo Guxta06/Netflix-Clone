@@ -1,0 +1,38 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.header-image{
+	width: 180px;
+}
+
+body{
+	background-color: #000;
+}
+
+.main-title{
+	color: #FFF;
+	text-align: center;
+	font-size: 60px;
+}
+
+figcaption{
+	color: #FFF;
+	margin-left: 50px;
+}
+
+.block-image{
+	display: flex;
+	justify-content: center;
+}
+.main-image{
+	width: 180px;
+	padding: 20px;
+}
+.main-image:hover{
+    width: 300px;
+    transition: 1.5s;
+    border-radius: 500px;
+}
